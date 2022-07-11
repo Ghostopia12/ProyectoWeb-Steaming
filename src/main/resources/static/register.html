@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="stylesheet" href="css/catalogo/fonts.css">
+    <title>GeekFanatical</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Register</h1>
+        <input type="text" id="nombreCompleto" class="form-control" placeholder="Nombre Completo">
+        <div class="text-danger validation" style="display: none" id="validation-name"></div>
+        <input type="text" id="nombreUsuario" class="form-control" placeholder="Usuario">
+        <div class="text-danger validation" style="display: none" id="validation-user"></div>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Contraceña">
+        <div class="text-danger validation" style="display: none" id="validation-pasword"></div>
+        <button id="btn_register" class="btn register" type="button" href="login.html">Register</button>
+        <p>
+            <a href="login.html">Ya estoy registrado</a>
+        </p>
+
+    </form>
+    <script src="js/utils.js"></script>
+    <script src="js/registro_usuario.js"></script>
+</body>
+
+</html>

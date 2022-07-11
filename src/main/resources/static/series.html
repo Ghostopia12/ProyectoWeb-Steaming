@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/catalogo/normalize.css">
+    <link rel="stylesheet" href="css/catalogo/fonts.css">
+    <link rel="stylesheet" href="css/catalogo/style.css">
+    <link rel="stylesheet" href="css/catalogo/header.css">
+    <link rel="stylesheet" href="css/catalogo/serie.css">
+    <title>GeekFanatical</title>
+</head>
+<body>
+    <header class="header">
+        <a href="home_page.html" class="logo">GeekFanatical!</a>
+        <a href="home_page.html" class="menu__item__link">
+            Home
+        </a>
+        <a href="#" class="menu__item__link">
+            Busqueda
+        </a>
+        <div class="col-12 mb-3" id="ok_contact_saved" style="display: none;">
+            <div class="alert alert-success" role="alert">
+                El contacto fue guardado correctamente.
+            </div>
+        </div>
+        <a href="lista.html" class="menu__item__link">
+            Lista
+        </a>
+        <a href="index.html" class="cuenta" id="btn_salir">
+            Sign out
+        </a>
+    </header>
+    <section class="banner">
+        <div class="banner">
+            <img src="./img/spiderman90s.jpg">            <!-- cambia de acuerdo a la serie -->
+        </div>
+        <button class="btn_lista" id="btn_listas" >Add</button>
+    </section>
+    <section class="lista">
+        <nav>
+            <label class="temporadas" for="menu-mobile-switch">
+                temp1
+            </label>
+            <input type="checkbox" class="menu-mobile-switch">
+            <ul class="capitulos">
+                <li class="menu__item">
+                    <a href="ver_serie.html" class="menu__item_list">
+                        <div class="imagen-container">
+                            <img src="http://i3.ytimg.com/vi/https://www.youtube.com/watch?v=1JKLM45aIik/hqdefault.jpg" alt="Imagen del Video">
+                        </div>
+                        <span class="menu__item__link__title">cap1</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="ver_serie.html" class="menu__item_list">
+                        <div class="imagen-container">
+                            <img src="http://i3.ytimg.com/vi/https://www.youtube.com/watch?v=1JKLM45aIik/hqdefault.jpg" alt="Imagen del Video">
+                        </div>
+                        <span class="menu__item__link__title">cap1</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <label class="temporadas" for="menu-mobile-switch">
+                temp2
+            </label>
+            <input type="checkbox" id="menu-mobile-switch">
+            <ul class="capitulos">
+                <li class="menu__item">
+                    <a href="ver_serie.html" class="menu__item_list">
+                        <div class="imagen-container">
+                            <img src="http://i3.ytimg.com/vi/https://www.youtube.com/watch?v=1JKLM45aIik/hqdefault.jpg" alt="Imagen del Video">
+                        </div>
+                        <span class="menu__item__link__title">cap1</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="ver_serie.html" class="menu__item_list">
+                        <div id="imagen-container">
+                            <img src="http://i3.ytimg.com/vi/https://www.youtube.com/watch?v=1JKLM45aIik/hqdefault.jpg" alt="Imagen del Video">
+                        </div>
+                        <span class="menu__item__link__title">cap1</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <script src="js/utils.js"></script>
+    <script src="js/series.js"></script>
+</body>
+</html>

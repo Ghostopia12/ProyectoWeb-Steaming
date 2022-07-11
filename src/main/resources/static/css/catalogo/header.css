@@ -1,0 +1,79 @@
+/*Mobile*/
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 17, 24);
+    padding-bottom: 3%;
+    width: 100%;
+    height: auto;
+}
+.logo,
+.logo:visited,
+.logo:hover,
+.logo:link {
+    font-family: 'sushi','Showcard Gothic';
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+    margin-top: 3%;
+    margin-left: 1%;
+    display: block;
+    text-align:left;
+}
+header > a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    margin-top: 3.5%;
+    text-align:right;
+}
+.menu__item__link:hover{
+    transform: scale(1.05, 1.05) translateZ(0px) translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    box-shadow: white 0px 30px 20px -10px;
+}
+.cuenta{
+    color: yellow;
+}
+.cuenta:hover{
+    transform: scale(1.05, 1.05) translateZ(0px) translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    box-shadow: rgb(36, 17, 24) 0px 30px 20px -10px;
+}
+.logo:hover{
+    transform: scale(1.05, 1.05) translateZ(0px) translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    box-shadow: blue 0px 30px 20px -10px;
+}
+
+
+@media (min-width: 768px) {/*Tablet*/
+    .logo,
+    .logo:visited,
+    .logo:hover,
+    .logo:link {
+        font-size: 30px;
+    }
+    header > a{
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 992px) {/*PC*/
+    .logo,
+    .logo:visited,
+    .logo:hover,
+    .logo:link {
+        font-size: 42px;
+    }
+    header > a{
+        font-size: 30px;
+    }
+}

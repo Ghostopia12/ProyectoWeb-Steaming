@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login/login.css">
+    <link rel="stylesheet" href="css/catalogo/fonts.css">
+    <title>GeekFanatical</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Login</h1>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Usuario">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Contraceña">
+
+        <button id="btn-login" class="btn btn-lg btn-primary btn-block" type="button">Ingresar</button>
+        <div class="invalid-feedback mb-3" id="validation-username" style="display: none">
+            Debe ingresar su nombre de usuario
+        </div>
+        <div class="invalid-feedback mb-3" id="validation-password" style="display: none">
+            Debe ingresar su contraseña
+        </div>
+        <div class="alert alert-danger" id="msg-error-login" style="display: none" role="alert" style="display: none">
+            Usuario y/o contraseña son incorrectos
+        </div>
+        <p>
+            <a href="#">Olvide mi contraceña</a>
+            <a href="register.html">Crear Usuario</a>
+        </p>
+
+    </form>
+    <script src="js/utils.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

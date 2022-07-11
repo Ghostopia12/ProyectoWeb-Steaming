@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'sushi';
+    src: url('SUSH.woff2') format('woff2'),
+        url('SUSH.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'sushi';
+    src: url('../../fonts/SUSH.woff2') format('woff2'),
+        url('../../fonts/SUSH.woff') format('woff'),
+        url('../../fonts/SUSH!.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
